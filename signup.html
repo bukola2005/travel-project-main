@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>Signup Page</title>
+</head>
+<body>
+  
+  <div class="alert">
+    <h3>Invaild Data</h3></div>
+    
+  <div class="container">
+    <form class="form " id="createAccount">
+      <h1 class="form-title">Create Account</h1> 
+      <div class="form-message form-message-error"></div>
+      <div class="form-input-group">
+        <input type="text" name="fullName" id="fullName" class="form-input" autofocus placeholder="Full Name">
+        <div class="form-input-error-message-fullname"></div>
+      </div>
+
+      <div class="form-input-group">
+        <input type="email" id="email" class="form-input" autofocus placeholder="Email">
+        <div class="form-input-error-message-email"></div>
+      </div>
+
+      <div class="form-input-group">
+        <input type="password" id="password" class="form-input " autofocus placeholder="Password">
+        <div class="form-input-error-message-password"></div>
+      </div>
+
+      <div class="form-input-group">
+        <input type="password" id="confirmPassword" class="form-input " autofocus placeholder="Confirm password">
+        <div class="form-input-error-message-confirmPassword"></div>
+      </div>
+
+      <button class="form-button" id="signup-btn"  type="submit">Continue</button>
+      <div class="form-input-error-message-continue"></div>
+      <p class="form-text">
+        <a href="./login.html" class="form-link">Already have an account? Login</a>
+      </p>
+    </form>
+  </div>
+  <script src="./signup.js"></script>
+</body>
+</html>
